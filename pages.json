@@ -1,0 +1,40 @@
+{
+	"pages": [{
+		"path": "pages/weather/index",
+		"style": {
+			"navigationBarTitleText": "天气",
+			"enablePullDownRefresh": true
+		}
+	},{
+		"path": "pages/index/index",
+		"style":{
+			"enablePullDownRefresh": true
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "券Club",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#FFFFFF",
+		"titleView": false,
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#4C8CE2",
+		"backgroundColor":"#FFFFFF",
+		"list":[{
+			"text":"天气",
+			"pagePath":"pages/weather/index",
+			"iconPath":"static/nav/weather.png",
+			"selectedIconPath":"static/nav/weather-f.png"
+		},{
+			"text":"优惠",
+			"pagePath":"pages/index/index",
+			"iconPath":"static/nav/sale.png",
+			"selectedIconPath":"static/nav/sale-f.png"
+		}]
+	}
+}
